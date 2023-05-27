@@ -1,3 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
 .main{
     background-image: url(material/fighting_game_animation_8.gif);
     background-size: cover;
@@ -7,8 +12,7 @@
     overflow: hidden;
 
 }
-
-.Pl-one{
+#char1{
     background-image: url(material/ryu-ts-stance.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,5 +20,22 @@
     height: 300px;
     position: absolute;
     bottom: 30px;
-    left: 30px;
+    left: 100px ;
 }
+
+#char2{
+    background-image: url(material/azrabc.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 278px;
+    height: 321px;
+    position: absolute;
+    bottom: 30px;
+    left:75vw ;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
